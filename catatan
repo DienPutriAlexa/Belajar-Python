@@ -1,0 +1,15 @@
+Langkah-langkah Memperbarui Kode ke GitHub:
+
+1. Ubah atau Tambah Kode
+
+Edit file Python kamu seperti biasa (misalnya nambahin baris kode di function.py atau nambah file baru). Jangan lupa tekan Ctrl + S untuk menyimpan perubahan di file tersebut.
+
+2. Buka Menu Source Control & Lakukan Commit
+
+Masuk ke menu Source Control (ikon cabang pohon di sebelah kiri).
+
+File yang baru kamu ubah akan otomatis muncul di bawah tulisan Changes.
+
+Ketik catatan singkat di kolom Message (contoh: "update fungsi sapa teman" atau "nambah latihan baru").
+
+Klik tombol Commit. (Kalau muncul pop-up tanya "Would you like to stage all your changes?", klik saja Yes atau Always).

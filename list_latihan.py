@@ -1,4 +1,4 @@
 teman = ["Salsa", "rizma", "Salwa", "Intan", "Fiya"]
 
 for i in teman:
-    print(f"Halo, {teman[4]}! Ayo kita makan bareng")
+    print(f"Halo, {i}! Ayo kita makan bareng")
