@@ -28,3 +28,30 @@ keranjang = {
         }
     ]  
 }
+
+def hitung_total(belanjaan):
+    total = 0
+    for barang in belanjaan:
+        # maksud dari += itu adalah sama aja kayak kalian memakai fungsi seperti ini
+        # total = total + (barang["harga"] * barang["jumlah"])
+        # Jadi, setiap kali perulangan for membaca satu barang, subtotal harga barang tersebut akan langsung ditambahkan (diakumulasikan) ke dalam variabel total yang ada di sebelah kiri.
+        total += barang["harga"] * barang["jumlah"]
+    return total
+
+def cari_barang_termahal(belanjaan):
+    barang_mahal = belanjaan[0]
+
+    for barang in belanjaan:
+        if barang["harga"] > barang_mahal["harga"]:
+            barang_mahal = barang
+
+    return barang_mahal
+
+def cari_barang_termurah(belanjaan):
+    barang_murah = belanjaan[0]
+
+    for barang in belanjaan:
+        if barang["harga"] < barang_murah["harga"]:
+            barang_murah = barang
+
+    return barang_murah
